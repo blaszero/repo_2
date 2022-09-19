@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*hack*/
+/*html{
+    height: 100%;
+}
+
+body{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    margin-top: auto;
+}*/
+/**/
+
+
+.logito{
+    width: 2.5%;
+}
+
+.logito2{
+    width: 10%;
+
+}
+
+.deco-text{
+    text-decoration: none;
+}
+
+.deco-text:hover{
+    transition: 2s all ease;
+    color:rgb(121, 4, 4);
+}
+
+.img-ima{
+    width: 50%;
+}

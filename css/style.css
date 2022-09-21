@@ -31,13 +31,23 @@ footer{
 
 .deco-text{
     text-decoration: none;
+    list-style: none;
+}
+
+.no-line{
+    text-decoration: none;
+    list-style: none;
 }
 
 .deco-text:hover{
-    transition: 2s all ease;
-    color:rgb(121, 4, 4);
+    transition: all 2s ease;
+    color:rgb(58, 10, 190);
 }
 
 .img-ima{
     width: 50%;
+}
+
+div a:hover{
+    color: rgb(253, 253, 253);
 }

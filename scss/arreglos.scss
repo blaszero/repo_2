@@ -1,0 +1,47 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.logito{
+    width: 2.5%;
+}
+
+.logito2{
+    width: 10%;
+
+}
+
+
+.no-line{
+    text-decoration: none;
+    list-style: none;
+}
+
+.deco-text{
+   text-decoration: none;
+   list-style: none;
+
+    a{
+     &:hover {
+    transition: all 2s ease;
+    color:$enlaces;
+     }
+   } 
+}
+
+.img-ima{
+    width: 50%;
+}
+
+div {
+    
+    a{
+    &:hover{
+    color: rgb(253, 253, 253);
+   }
+ }
+}

@@ -1,0 +1,14 @@
+footer{
+    div{
+        nav{
+           .deco-text{
+               text-decoration: none;
+               list-style: none;
+            &:hover{
+                transition: all 2s ease;
+                color:$enlaces;
+            }
+           }
+        }
+    }
+}

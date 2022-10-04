@@ -17,13 +17,12 @@
 
 
 .no-line{
-    text-decoration: none;
-    list-style: none;
+    text-decoration: map-get($map, n);
+    list-style: map-get($map, n);
 }
 
 .deco-text{
-   text-decoration: none;
-   list-style: none;
+    @extend.no-line;
 
     a{
      &:hover {
@@ -32,6 +31,9 @@
      }
    } 
 }
+
+
+
 
 .img-ima{
     width: 50%;

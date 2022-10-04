@@ -9,16 +9,13 @@
 .logito2 {
   width: 10%; }
 
-.no-line {
+.no-line, .deco-text, footer div nav .deco-text {
   text-decoration: none;
   list-style: none; }
 
-.deco-text {
-  text-decoration: none;
-  list-style: none; }
-  .deco-text a:hover {
-    transition: all 2s ease;
-    color: #3a0abe; }
+.deco-text a:hover {
+  transition: all 2s ease;
+  color: #3a0abe; }
 
 .img-ima {
   width: 50%; }
@@ -26,23 +23,20 @@
 div a:hover {
   color: #fdfdfd; }
 
-footer section div .boton-re {
+section div .boton-re {
   text-decoration: none;
   padding: 5px;
   margin: 5px;
   background-color: black;
   border-radius: 5px; }
-  footer section div .boton-re:hover {
+  section div .boton-re:hover {
     transition: all 2s ease;
     color: red; }
 
-footer section div .img {
+section div .img {
   width: 25%;
   margin-bottom: 5px; }
 
-footer div nav .deco-text {
-  text-decoration: none;
-  list-style: none; }
-  footer div nav .deco-text:hover {
-    transition: all 2s ease;
-    color: #3a0abe; }
+footer div nav .deco-text:hover {
+  transition: all 2s ease;
+  color: #3a0abe; }

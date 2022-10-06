@@ -9,7 +9,7 @@
             background-color: black;
             border-radius: 5px;
             &:hover{
-                transition: all 2s ease;
+                @include transicion;
                 color: red;
             }
         }

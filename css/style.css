@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*Archivo principal de estilos, trate de separarlo lo mas limpio
 y bonito posible*/
 * {
@@ -18,6 +19,9 @@ y bonito posible*/
 .deco-text a:hover {
   transition: all 2s ease;
   color: #3a0abe; }
+
+.tamaño {
+  width: 80%; }
 
 .img-ima {
   width: 50%; }
